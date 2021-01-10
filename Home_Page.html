@@ -6,51 +6,16 @@
         <meta name="authors" content="Jacob Pehringer, , ">
 
         <title>Site Tab Title</title>
-
-        <style>
-            header
-            {
-                background-color: cadetblue;
-                color: darkslategray;
-
-                text-align: center;
-                padding: 10px;
-            }
-            footer
-            {
-                background-color: cadetblue;
-                color: darkslategray;
-
-                text-align: center;
-                padding: 10px;
-            }
-        </style> 
+        <link rel="stylesheet" href="styles.css">
     </head>
-    <body>
-        <header >
-            <h1>Main page heading here</h1>
-        </header>
-        
-        <h2 style="padding: 20px;">Lorem Ipsum Dolor Sit Amet</h2>
-        <p style="padding-left: 40px; padding-right: 40px; padding-bottom: 20px;">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dui dolor, auctor nec congue sit amet,
-            egestas at sem. Maecenas eleifend nisl sit amet vulputate convallis. Proin placerat, metus in eleifend
-            varius, est lectus tempus libero, vitae elementum felis libero sit amet quam. Pellentesque aliquam urna
-            ipsum, sed tincidunt nunc egestas ac. Praesent venenatis, augue quis hendrerit maximus, velit justo malesuada
-            leo, at venenatis eros metus egestas metus. Nam vehicula dui ac lectus maximus aliquet. Maecenas non purus
-            consequat, pellentesque nunc a, euismod velit. Nulla bibendum pharetra nisl. Proin iaculis mollis libero.
-            Aliquam eleifend ipsum quis nunc iaculis, in convallis ante dictum.<br>
-            <br>
-            Praesent convallis blandit sodales. Quisque molestie lectus nunc, eget cursus elit lacinia sed. Suspendisse
-            neque ipsum, efficitur in venenatis sit amet, pretium quis nibh. Duis auctor augue eget sem laoreet, ut faucibus
-            nibh finibus. Aenean pharetra sollicitudin turpis, vitae dignissim enim. In ultrices tortor vel ligula scelerisque
-            facilisis id in nibh. In interdum pellentesque pellentesque. Sed sagittis gravida ipsum sed dignissim. Suspendisse
-            laoreet dapibus dolor vel accumsan. Vivamus in lorem in orci mattis fringilla. Nam varius sapien quam, a auctor turpis
-            fermentum nec. Integer in lorem in neque mattis dignissim.
-        </p>
-        <footer>
-            <p>Main page footer here</p>
-        </footer>
+    <body id="home">
+        <form action="/action_page.php">
+            <label for="keywords:">keywords:</label><br>
+            <input type="text" id="keywords" value="Enter, keywords, here, and, click, submit!" style="width: 300px; height: 50px;"><br>
+            <input type="submit" value="Submit">
+        </form> 
+          
+          <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 
     </body>

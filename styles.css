@@ -1,0 +1,47 @@
+/*************** General WebPage formatting ********************/
+header
+{
+    background-color: cadetblue;
+    color: darkslategray;
+
+    text-align: center;
+    padding: 10px;
+}
+footer
+{
+    background-color: cadetblue;
+    color: darkslategray;
+
+    text-align: center;
+    padding: 10px;
+}
+
+#home p{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background: red;
+}
+
+/* #para-one{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    background: red;
+} */
+
+
+
+
+
+
+
+
+
+/*******Projects page *********/
+
+
+
+
+
+
